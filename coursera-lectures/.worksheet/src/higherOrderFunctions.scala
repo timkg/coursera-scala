@@ -2,7 +2,8 @@ object higherOrderFunctions {import scala.runtime.WorksheetSupport._; def main(a
 
 	def sumIntsBetween(a: Int, b: Int): Int =
 		if(a > b) 0 else a + sumIntsBetween(a+1, b);System.out.println("""sumIntsBetween: (a: Int, b: Int)Int""");$skip(22); val res$0 = 
-	sumIntsBetween(1, 4);System.out.println("""res0: Int = """ + $show(res$0));$skip(38); 
+	sumIntsBetween(1, 4);System.out.println("""res0: Int = """ + $show(res$0));$skip(39); 
+
 
 	def cube(x: Int): Int =
 		x * x * x;System.out.println("""cube: (x: Int)Int""");$skip(13); val res$1 = 
